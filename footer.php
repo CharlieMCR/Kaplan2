@@ -5,9 +5,7 @@
 		<a href="mailto:info@dkaplan.co.uk" title="Contact" id="js-mailto"><i class="icomoon-envelope"></i></a>
 		</div>
 		<div class="col xs-12 md-6 social">
-			<a target="_blank" href=""><i class="icomoon-linkedin2"></i></a>
-			<a target="_blank" href=""><i class="icomoon-skype"></i></a>
-			<a target="_blank" href="https://twitter.com/asphaltenes"><i class="icomoon-twitter"></i></a>
+			<?php get_template_part('parts/footer-links'); ?>
 		</div>
 		<div class="sub-footer">
 			<span>&copy; Copyright <a class="" href="<?php bloginfo('url'); ?>"><?php bloginfo('title'); echo " ".date('Y'); ?></a></span>

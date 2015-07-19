@@ -25,9 +25,11 @@ $profile = get_field('profile'); ?>
 			<div class="row">
 				<h1 class="title"><?php the_title(); ?></h1>
 			</div>
+			<?php if(!empty($image)): ?>
 			<div class="row">
 				<img src="<?php echo $profile['url']; ?>" alt="<?php echo $profile['alt']; ?>" class="profile-picture">
 			</div>
+			<?php endif; ?>
 			<div class="row content content-single">
 				<div class="col xs-12 md-10 offset-md-1 lg-8 offset-lg-2">
 				<?php the_content(); ?>
